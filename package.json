@@ -1,0 +1,6 @@
+{
+  "name": "jest-learn",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
