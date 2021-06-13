@@ -1,5 +1,8 @@
 {
   "name": "jest-learn",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "^27.0.4"
   }
