@@ -1,4 +1,4 @@
-import factorial from "./factorial";
+const factorial = require("./factorial");
 
 test("1! = 1", () => {
   expect(factorial(1)).toBe(1);
@@ -9,7 +9,7 @@ test("3! = 6", () => {
 });
 
 test("5! = 125", () => {
-  expect(factorial(5)).toBe(125);
+  expect(factorial(5)).toBe(120);
 });
 
 test("0! = 1", () => {
