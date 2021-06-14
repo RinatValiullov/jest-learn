@@ -4,8 +4,8 @@
  * @returns {object}
  */
 
-const createObject = (value) => {
-  const object = { nick: value };
+const createObject = (prop, value) => {
+  const object = { [prop]: value };
   return object;
 };
 
