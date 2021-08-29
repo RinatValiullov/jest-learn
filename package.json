@@ -3,7 +3,23 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/**/*.(test|spec).{js, jsx, ts, tsx}"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "html"
+    ]
+  },
+  "author": "4rontender",
+  "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.1.0",
     "jest": "^27.0.4"
   }
 }
