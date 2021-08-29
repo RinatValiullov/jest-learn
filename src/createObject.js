@@ -4,9 +4,9 @@
  * @returns {object}
  */
 
-const createObject = (prop, value) => {
+export const createObject = (prop, value) => {
   const object = { [prop]: value };
   return object;
 };
 
-module.exports = createObject;
+// module.exports = createObject;

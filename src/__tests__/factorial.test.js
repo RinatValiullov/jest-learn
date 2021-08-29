@@ -1,4 +1,4 @@
-const factorial = require("./factorial");
+import { factorial } from '../factorial';
 
 test("1! = 1", () => {
   expect(factorial(1)).toBe(1);
