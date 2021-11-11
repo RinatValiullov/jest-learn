@@ -1,4 +1,4 @@
-import { createObject } from '../createObject';
+import { createObject } from "../createObject";
 // const createObject = require("./createObject");
 
 test("check objects equality", () => {
