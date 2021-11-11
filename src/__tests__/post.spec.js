@@ -18,4 +18,11 @@ describe("Should render Post component", () => {
     const wrapper = component.find("a");
     expect(wrapper.length).toBe(1);
   });
+
+  it("should render created date", () => {
+    const created_at = "11-11-2021";
+    component = setupComponent({ created_at });
+    const date = component.find(".date");
+    expect(date.text()).toBe(new Date(created_at).toLocaleDateString());
+  });
 });
