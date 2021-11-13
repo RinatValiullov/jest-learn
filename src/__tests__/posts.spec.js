@@ -3,7 +3,7 @@ import Posts from "../Posts/Posts";
 
 describe("Posts component", () => {
   it("should render Post component", () => {
-    const component = shallow(<Posts />);
+    const component = render(<Posts />);
     expect(component).toMatchSnapshot();
   });
 });
