@@ -22,6 +22,9 @@
     ],
     "setupFilesAfterEnv": [
       "./src/config/setupTest.js"
+    ],
+    "snapshotSerializers": [
+      "./node_modules/enzyme-to-json/serializer"
     ]
   },
   "author": "4rontender",
