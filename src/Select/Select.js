@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Input = ({ handleChange, options, value }) => (
+const Select = ({ handleChange, options, value }) => (
   <div className="selectWrapper">
     {options.length > 0 ? (
       <>
@@ -20,16 +20,16 @@ const Input = ({ handleChange, options, value }) => (
   </div>
 );
 
-Input.propTypes = {
+Select.propTypes = {
   handleChange: PropTypes.func,
   options: PropTypes.array,
   value: PropTypes.number,
 };
 
-Input.defaultProps = {
+Select.defaultProps = {
   handleChange: () => "Test",
   options: [],
   value: 0,
 };
 
-export default Input;
+export default Select;
