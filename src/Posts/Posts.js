@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Post from "../Post/post";
 import Title from "../Title/title";
 import Select from "../Select/select";
-import Input from "../Input/input";
+import Input from "../Input/Input";
 
 import { NEWS, HITS } from "./constants";
 
