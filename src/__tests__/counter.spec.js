@@ -23,5 +23,16 @@ describe("Count component", () => {
       /* expect(component).toMatchSnapshot(); */
       expect(component.state().count).toBe(1);
     });
+
+    it("should reset count value to 10", () => {
+      const btn = component.find(".resetBtn");
+      btn.simulate("click");
+      expect(component.state().count).toBe(10);
+    });
+
+    it("should reset count value to custom value", () => {
+      instance.handleReset(20);
+      expect(component.state().count).toBe(20);
+    });
   });
 });
