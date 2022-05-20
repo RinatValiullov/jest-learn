@@ -1,5 +1,5 @@
 import React from "react";
-import Info from "../Info/Info";
+import Info from "../Info/info";
 import { shallow } from "enzyme";
 
 const setupComponent = () => shallow(<Info />);
