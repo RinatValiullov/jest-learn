@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Input from "../Input/input";
 import Pagination from "../Pagination/Pagination";
 import Post from "../Post/Post";
-import Select from "../Select/select";
-import Title from "../Title/title";
+import Select from "../Select/Select";
+import Title from "../Title/Title";
 import {
   BASE_PATH,
   HITS,
