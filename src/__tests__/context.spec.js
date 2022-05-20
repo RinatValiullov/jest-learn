@@ -1,6 +1,6 @@
 import React from "react";
+import ContextComponent from "../Context/Component";
 import { AuthProvider } from "../Context/context";
-import ContextComponent from "../Context/component";
 
 describe("ContextComponent", () => {
   const component = mount(

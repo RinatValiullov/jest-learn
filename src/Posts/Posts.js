@@ -1,21 +1,18 @@
 import React, { Component } from "react";
-
-import Post from "../Post/post";
-import Title from "../Title/title";
-import Select from "../Select/select";
 import Input from "../Input/input";
 import Pagination from "../Pagination/Pagination";
-
-import "./posts.css";
-
+import Post from "../Post/Post";
+import Select from "../Select/select";
+import Title from "../Title/title";
 import {
-  HITS,
   BASE_PATH,
-  SEARCH_PATH,
-  SEARCH_PARAM,
+  HITS,
   PAGE_HITS,
   PAGE_PARAM,
+  SEARCH_PARAM,
+  SEARCH_PATH,
 } from "./constants";
+import "./posts.css";
 
 class Posts extends Component {
   state = {
